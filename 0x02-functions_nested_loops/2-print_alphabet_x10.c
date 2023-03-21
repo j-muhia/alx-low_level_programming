@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *main - Entry point.
- *Description: print alphabet X10.
- *Return: Always 0.
- */
+  *print_alphabet_x10 - Entry point
+  *Description: prints 10 times the alphabet, in lowercase
+  *Return: 0 (successful).
+  */
 void print_alphabet_x10(void)
 {
 	int j;
