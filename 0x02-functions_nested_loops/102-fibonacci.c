@@ -11,7 +11,7 @@ int main(void)
 	long j = 1;
 	long k = 2;
 
-	while (i < 50)
+	while (i < 49)
 	{
 	if (i == 0)
 	{
@@ -32,6 +32,14 @@ int main(void)
 	++i;
 	printf(",");
 	printf(" ");
+	}
+	{
+	if (i == 49)
+	{
+		k += j;
+		j = k - j;
+		printf("%ld", k);
+	}
 	}
 	printf("\n");
 	return (0);
