@@ -64,7 +64,6 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 			ov = 0;
 		if (d >= (size_r - 1))
 			return (0);
-		else
 		*(r + d) = (t2 % 10) + '0';
 		d++;
 		b--;
