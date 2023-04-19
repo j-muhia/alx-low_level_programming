@@ -18,10 +18,10 @@ int (*get_op_func(char *s))(int, int)
 		{NULL, NULL},
 	};
 
-	int x = 0;
+	int i = 0;
 
-	while (ops[x].op != NULL && *(ops[x].op) != *s)
-		x++;
+	while (ops[i].op != NULL && *(ops[i].op) != *s)
+		i++;
 
-	return (ops[x].f);
+	return (ops[i].f);
 }
